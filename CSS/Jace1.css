@@ -1,0 +1,78 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 25px;
+    background-color: #4379A8;
+}
+
+header {
+	/* background-color: #00004C; */
+	background-image: url('../img/Battle-for-Zendikar-Art-3.jpg');
+	/* background-repeat: repeat; */
+	background-size: cover;
+	padding: 30px;
+	text-align: center;
+}
+h1 {
+	font-size: 90px;
+	color: white;
+	text-shadow: 0 10px 20px black;
+}
+h2{
+	font-size: 40px;
+	color: #000000;
+
+}
+
+header img{
+	border-radius: 150px;
+	width: 350px;
+    height: 330px;
+	border: 10px solid #000000; 
+	box-shadow: 0 10px 20px black;
+}
+
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: ;
+}
+
+img.big-img {
+	max-width: 100%;
+}
+p.caption {
+    font-size: 16px;
+    color: darkgrey;
+    font-style: italic;
+}
+ol, ul  {
+	list-style: none;
+	padding: 0;
+	margin:20px;
+}
+.friends li {
+	display: inline-block;
+	margin: 0px 7px;
+}
+a {
+	color: purple;
+	text-decoration: none;
+	border-bottom: 2px purple;
+}
+
+footer{
+	padding: 40px 20px;
+	background-color: #838996
+}
+footer ul{
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+	margin: 0px 7px;
+}
